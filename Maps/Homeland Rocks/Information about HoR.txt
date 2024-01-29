@@ -1,0 +1,62 @@
+Command & Conquer Generals : Zero Hour Map
+
+=======================================================================
+>> General information << :
+Title                : Homeland Rocks (HoR)
+Version              : 1.0
+Release Date         : 31th December 2004
+Author               : R4v3n & AgEnT21
+Email Address        : minory@gmx.de & 
+Website              : www.armed-noobs.tk & philipp.b-online@web.de
+Added picture's      : 3 (*.jpg)
+=======================================================================
+>> More information about HoR << :
+Location (Map-Style) : Desert
+Map-Size (X/Y)       : 210*340
+Map-Time             : Morning
+Sun-Adjustment       : 19
+Max. Player'z        : 2
+Skirmish Compatible  : Yes
+Objects              : 348 
+Resources over all   : 117.000 $
+Description          :
+ 
+This is a nice 2player-map in a Desert-style. Our aim was to use less 
+objects in this map. Of course the recourses are enough to own your 
+enemy like in other maps. You can go, like on Tournament Desert
+it is, double-supply here. Right in the middle of the map you have an 
+repairbay & to supllies.
+The suplly in the middle-right includes 17.500 $ - the other on the left, 
+which is rounded by a small town includes 22.000 $. Three OilDerricks 
+to capture - one of these straight behind every starting postion.
+The KI work's good, so fights against the computer are working propor 
+and you'll have fun.
+=======================================================================
+>> Installation << :
+To use the map, look in your "My Documents" for a folder named 
+"Command and Conquer Generals Zero Hour Data/Maps". If this directory 
+doesn't exist (means you never played a skirmish game), play a skirmish 
+map for a few minutes and comeback. The folder will be automatically 
+created by the game. Extract the COMPLETE Map FOLDER 
+(not just the individual files) included in the map zip file in the 
+"/Command and Conquer Generals Zero Hour data/Maps" folder. Fire up the 
+game and you should be good to go. Look for the map in the Unofficial Maps 
+section.
+=======================================================================
+>> Copyright << :
+This level is copyrighted by R4v3n & AgEnT 21.
+Authors may NOT use this level as a base to build additional 
+levels, unless they have our permission to do that.
+
+You are NOT allowed to commercially exploit this level, f.e. put 
+it on a CD or any other electronic medium that is sold for money
+without my explicit permission !
+
+Thx for your honesty & sympathy (understanding) !
+=======================================================================
+HF with our map !
+"Have a nice game and C U on the Battlefield".
+
+-------
+Information for the author :
+Uploaded to www.CnCDEN.com : No

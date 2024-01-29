@@ -1,0 +1,13 @@
+Created By assassin
+
+This is a 6 player map. Mainly desinged for 3v3's.
+ This map is set in the early morning.
+Put this map to your command and conquer directory eg. c/eagames/maps
+This map has fully working computer players.
+ 
+
+
+
+
+
+

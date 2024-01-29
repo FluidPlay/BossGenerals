@@ -1,0 +1,115 @@
+MapIntro:01
+"Art of Defense"
+End
+
+MapIntro:01b
+"by FaclonKing"
+End
+
+MapIntro:02
+"Boss Generals Version"
+End
+
+MapIntro:02b
+"IMPORTANT: MUST HAVE ONE -BOSS USA- COMPUTER PLAYER."
+End
+
+MapIntro:03
+"You'll have NO bombing powers available"
+End
+
+MapIntro:04
+"Survive until the bombers arrive."
+End
+
+MapIntro:04b
+"--"
+End
+
+MapIntro:05
+"Attack begins ... NOW!"
+End
+
+MapIntro:06
+"Good luck, Commander."
+End
+
+MapIntro:07
+"--"
+End
+
+MapMessage:01
+"Attacker gaining ground..."
+End
+
+MapMessage:02
+"Warning: Helix Storm detected..."
+End
+
+MapMessage:02b
+"Warning: Aurora Alpha Storm detected..."
+End
+
+MapError:01
+"ERROR: Wrong computer player selected."
+End
+
+MapError:02
+"Must only select -USA- computer players."
+End
+
+MapError:03
+"Sorry for the inconvenience."
+End
+
+MapError:04
+"Game will end now. Please restart."
+End
+
+MapCredit:01E
+"You are about to win..."
+End
+
+MapCredit:02E
+"Normal Mode is too easy..."
+End
+
+MapCredit:03E
+"Now, try playing against Normal Computer"
+End
+
+MapCredit:01N
+"You are about to win..."
+End
+
+MapCredit:02N
+"For more surprises..."
+End
+
+MapCredit:03N
+"Play against Boss Hard Computer."
+End
+
+MapCredit:01H
+"Sweet Victory is near..."
+End
+
+MapCredit:02H
+"Kudos for beating AoD BG"
+End
+
+MapCredit:03H
+"You are the Master of Art of Defense !!!"
+End
+
+MapLevel:Easy
+"Easy COMPUTER SELECTED - this will be easy"
+End
+
+MapLevel:Normal
+"Normal COMPUTER SELECTED"
+End
+
+MapLevel:Hard
+"BOSS HARD COMPUTER SELECTED - you are brave"
+End

@@ -1,0 +1,7 @@
+Mod files can only be used in a legal installation
+of EA Games' C&C Generals:Zero Hour. 
+
+All modified game data files are GPLv3.
+
+All included art files are copyright
+Breno Azevedo da Silva, 2024

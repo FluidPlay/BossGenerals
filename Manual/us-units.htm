@@ -1,0 +1,339 @@
+<html>
+<head>
+<title>Command and Conquer Boss Generals - MaD-X game and mod design</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="mad-x.css" type="text/css">
+<!-- ImageReady Preload Script (Lilbutton.psd) -->
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = 
+
+changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		back_over = newImage("images/back-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<!-- End Preload Script -->
+</head>
+
+<body bgcolor="#000000" text="#000000" background="images/bosssite_genericbg.gif" leftmargin="30" topmargin="30" marginwidth="0" marginheight="0" onload="preloadImages();">
+<p align="center">&nbsp;</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td background="images/title_bg.gif"> 
+      <div align="center"><img src="images/title_usinfantry.gif" width="458" height="34"></div>
+    </td>
+  </tr>
+</table>
+<p align="center"></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+  <tr> 
+    <td width="14%" height="133"> 
+      <div align="center"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="1"><img src="images/rangerlaser.gif" width="72" height="63"><br>
+        Laser Ranger</font></b></div>
+    </td>
+    <td class="MaD-X" width="86%" height="133"> 
+      <p> One of the latest advancements in standard American technology seen 
+        on the battle field is the standard Laser Rifle which is extreamly strong 
+        when fighting infantry and has had reports of even burning troops to death. 
+        Nevertheless, the improved arsenal of Rangers do not stop there! New HP 
+        (High Powered) flashbang grenades have been issued to troops on and off 
+        the field. Tests show that with increased fire power and a longer reload 
+        time Rangers will have to micro each of their new and improved weapons 
+        for the best effect when neutralizing infantry threats.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="14%" class="MaD-X" height="91" valign="middle" align="center"> 
+      <p align="center"><img src="images/missiledefender.gif" width="72" height="64"><br>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Missile Defender</b></font></p>
+    </td>
+    <td width="86%" class="MaD-X" height="91"> 
+      <p> What good is such advanced weaponry when infantry lack the basic essentials? 
+        American forces are receiving new gear if the commander invest on the 
+        'Tech Devices' genplan and is willing to pay a small price tag for the 
+        technology. Speed boots help American Missile Defenders and Pathfinders 
+        to gain a substantially increased movement rate, making them exceptional 
+        pursuing and defending units, able to outrun most of their foes. Quick 
+        response teams have been seen using hummers, speed boots and the search 
+        and destroy orders to make quick work of flanking armor support. It's 
+        worth noting that when the general picks the &quot;Tech Devices&quot; 
+        genplan, all missile defenders start out with veteran status, hence with 
+        a higher damage and resistance.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="14%" class="MaD-X" height="74"> 
+      <div align="center"><img src="images/pathfinder.gif" width="72" height="64"><br>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Pathfinders</b></font><br><font color="#FFCC00">(genplan)</font></div>
+    </td>
+    <td width="86%" class="MaD-X" height="74"> 
+      <p>The few, the proud, the elite! The Pathfinders have proven themselves 
+        time and time again in the last two campaigns against the GLA to be invaluable 
+        to the American arsenal. Pathfinders have received extra training and 
+        are also able to use the upgraded 'Speed boots' gear.</p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="14%" class="MaD-X" height="96"> 
+      <div align="center"><img src="images/burtonlaser.gif" width="72" height="63"><br>
+        <b>Col. Matt &quot;Laser&quot; Burton</b></div>
+    </td>
+    <td width="86%" class="MaD-X" height="96">The Hero of the American Armed forces, 
+      whose feats have been reproduced by Holywood's silver screen more than once, 
+      is back and better than ever, with a powerful and longer ranged portable 
+      Laser cannon capable of dealing very strong armor-piercing damage to regular 
+      tanks. Burton&#146;s E-Shock Grenade is a powerful new tool for Burton, 
+      available as a 5-star General asset. This new high-tech weapon has been 
+      shown to shut down buildings and units while its shockwave can destroy infantry 
+      and send even the heaviest of armor flying.</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td background="images/title_bg.gif"> 
+      <div align="center"><img src="images/title_usvehicles.gif" width="458" height="34"></div>
+    </td>
+  </tr>
+</table>
+<p align="center"><b></b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <p align="center"><img src="images/paladinlaser.gif" width="72" height="63"><br>
+        <b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">Laser 
+        Paladin Tank</font></b><br>
+        <font color="#FFCC00">(genplan)</font> </p>
+    </td>
+    <td class="MaD-X" width="83%" height="102"> 
+      <p> On the forefront of new technology, the American army will be pitting 
+        the ultimate combination of Point Defense Laser support and Laser power 
+        in one respect-imposing unit. This MBT (Main Battle Tank) armored unit, 
+        albeit being responsible for rendering all the former US armor tech obsolete, 
+        is costly if a general chooses to use it, but can also be obtained by 
+        air-drop reinforcements at strategic pads found around the battlefield.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="74"> 
+      <p align="center"><img src="images/humvee.gif" width="72" height="63"><br>
+        <b>Humvee (HMMWV)</b></p>
+    </td>
+    <td width="83%" class="MaD-X" height="74"> 
+      <p> As classic and reliable as ever, the Humvee (nickname for HMMWV, a military 
+        term for &quot;High Mobility Multipurpose Wheeled Vehicle&quot;) has been 
+        seeing some new usages in actual war situations, when coupled for example 
+        with the laser rangers rifles that deal a good deal of damage on structures 
+        and can be easily obtained from American carrier drops available as soon 
+        as the strategy center is built. Like other fast moving troop-carrying 
+        vehicles, though, the humvee is much more susceptible to tank fire recently, 
+        since latest tank shells technologies vastly improved their armor penetration 
+        attributes.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <div align="center"><b><img src="images/guardiansentrydrone.gif" width="72" height="63"><br>
+        Guardian Sentry Drone (GSD)</b></div>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> 
+      <p>The American armed forces are always striving for perfection of their 
+        automated troops and the latest in a long line of drones is here. Where 
+        the former versions failed, the Guardian Sentry Drone excels with a new 
+        plated armor that is gattling-fire resistant. A small long-range machinegun 
+        is now standard on all GSDs, which has the latest AI enhancements of not 
+        firing unless put into its guard mode. Field tests including a combination 
+        of Avenger and sentry drone has proven to make the unit extremely effective 
+        in numbers vs. light armored units. With a huge sight and stealth-detection 
+        range, fast movement and the new JackHammer siege attack mode - available 
+        with the Shock and Awe genplan - the GSD became a important part of the 
+        american tech tree.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <div align="center"> 
+        <p><b><img src="images/tomahawk.gif" width="72" height="64"><br>
+          Tomahawk Delta</b></p>
+      </div>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> The long-ranged artillery vehicle 
+      from US forces is now better than ever, loaded with new siege missiles activateable 
+      with the impressive tomahawk chaining technology. After this 3-star General 
+      technology is researched at the strategy center, groups of tomahawk lauchers 
+      can use the chaining link system to fire a pair of siege missiles, super 
+      efficient against structures. To activate the system properly, just one 
+      Tomahawk should aim at the target, and the tomahawks nearby will automatically 
+      fire at it using siege missiles. When equipped with the new &quot;Delta 
+      Engine&quot; upgrade, available with the <i>Assault</i> genplan, the Tomahawk 
+      gains 30% more speed, moving swiftly across the battlefield to better position 
+      itself and retreat out of danger when uncovered.</td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <p align="center"><img src="images/microwave.gif" width="72" height="64"><br>
+        <b>Microwave Tank</b></p>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> With a re-inforced tank-shell 
+      resistant armor plating, and with some even newer technological advances, 
+      the Microwave has been seeing increasing tactical usage by the Boss US forces. 
+      Empowered by a new and costly experimental technology, the Stealth scout 
+      drone, the Microwave is now being considered a 'natural predator' of GLA 
+      outposts.</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td background="images/title_bg.gif"> 
+      <div align="center"><img src="images/title_usaircraft.gif" width="458" height="34"></div>
+    </td>
+  </tr>
+</table>
+<p align="center"><b></b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <p align="center"><img src="images/epraptor.gif" width="72" height="63"><br>
+        <b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">EP 
+        Raptor</font></b></p>
+    </td>
+    <td class="MaD-X" width="83%" height="102"> 
+      <p> Replacing the former and now obsolete standard Raptor aircraft, US military 
+        designers developed an amazing flying machine - the Extra Precision Raptor, 
+        or EP Raptor for short. Cheap and fast to build, designed to satisfy the 
+        claims of the high US command which's comprised of seasoned american Generals, 
+        the EP rockets that arm the new plane not only now have an improved guidance 
+        system that makes them never miss targets - even small and moving ones 
+        like infantry - but they're also plated with a special titanium light 
+        metal compound (A-6 Titanium Aluminide alloy) that makes them double-resistant 
+        to PDL and ECM missile-defense devices.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="74"> 
+      <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><img src="images/kingraptor.gif" width="72" height="63"><br>
+        <b>King Raptor</b></font><br>
+        <font color="#FFCC00">(genplan)</font></p>
+      </td>
+    <td width="83%" class="MaD-X" height="74"> 
+      <p> The 'eagle' general's most loved weapon. As much as enemy air and anti-air 
+        technology improved, the brute force and resiliance of King Raptors are 
+        almost impossible to be questioned. Unfortunately, the super-fast original 
+        PDL rate of fire couldn't be achieved after the original design project 
+        was destroyed during a failed enemy attempt of capturing it. Nevertheless, 
+        it still offers very good anti-missile protection, and the new design 
+        received a special, more bullet-resistant armor after being upgraded to 
+        countermeasures. The missile firing system has been optimized with faster 
+        missiles that although not as precise as the EP ones, rarely if ever misfire 
+        as their predecessors. The heavier missile resulted in less missiles being 
+        loaded at once on the aircraft, to keep the weight low and the performance 
+        high, but after many tests US engineering achieved a final damage output 
+        equal to the original specs, after the laser-guided missile technology 
+        is upgraded at the airfields.</p>
+    </td>
+  </tr>
+    <tr> 
+    <td width="17%" class="MaD-X" height="74"> 
+      <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><img src="images/stealthfighter.gif" width="72" height="64"><br>
+        <b>Stealth Fighter</b></font></p>
+      </td>
+    <td width="83%" class="MaD-X" height="74"> 
+      <p> The #1 anti-defense plane of the american airforce has now built-in 
+        fast PDL lasers and the armor boost of the countermeasures upgrade, making 
+        it even more efficient and with a higher return rate. Use it in pairs 
+        to quickly destroy any standard stationary defense of the enemy. Albeit 
+        not being very effective vs structures, in large maps it's smart having 
+        a good number of stealth fighters for surgical missions. The bunker buster 
+        upgrade also makes it extremely effective vs GLA, forcing units out of 
+        the tunnels and killing the weaker infantry that's hidden within.</p>
+    </td>
+
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <div align="center"><b><img src="images/auroraep.gif" width="72" height="63"><br>
+        EP Aurora Bomber </b></div>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> 
+      <p> Complaints similar to the ones directed at the old Raptor model were 
+        heard about the Aurora bomber too, claiming it wasn't accurate enough 
+        to hit moving target and was therefore useless for early defense purposes. 
+        EP bombs were then projected to help alleviate this issue, and a replacement 
+        aircraft had to be designed with an advanced dropping mechanism to support 
+        the new weapon. Mixed feelings resulted from the final product, since 
+        the new EP Aurora bomber is now much more complex and therefore sensibly 
+        slower to produce, and the lighter bomb used doesn't have as high raw 
+        damage as the former one. Nevertheless the US high command felt it's a 
+        more polished and useful aircraft than the former and adopted the EP Aurora 
+        as the new standard bomber of the american forces.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <div align="center"> 
+        <p><b><img src="images/auroraalpha.gif" width="72" height="64"><br>
+          Aurora Alpha Bomber<br>
+          </b><font color="#FFCC00">(genplan)</font> </p>
+      </div>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> Highly acclaimed by the United 
+      States as the most powerful regular bomber ever created, famous General 
+      Alexis Alexander's masterpiece creation couldn't be forgotten by the new 
+      generation. As powerful and strong as ever, Aurora Alphas only negative 
+      point is that some of the key technology used to produce them became scarce 
+      due to high demand, leaping in price, and rendering the final cost of the 
+      aircraft to be much higher. Aurora Alphas take a long time to reload their 
+      missiles, so it's imperative keeping the airfield defended at all costs 
+      during the crucial reload process.</td>
+  </tr>
+  <tr> 
+    <td width="17%" class="MaD-X" height="112"> 
+      <p align="center"><img src="images/comanchestealth.gif" width="72" height="64"><br>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Stealth Comanche</b></font></p>
+    </td>
+    <td width="83%" class="MaD-X" height="112"> The Comanches were many times 
+      victims of their own machinegun range limitation, that used to bring them 
+      too close to anti-air vehicles and defenses when trying to pick individual 
+      infantry targets. Situation have improved dramatically for Boss US Comanches, 
+      that have a higher range and can now confortably be 'front-shielded' by 
+      tanks and guardian sentry drones against these threats. Albeit having the 
+      cloaking device cost incorporated to the basic helicopter cost, due to some 
+      recent 'lethal weaponry technology containment' international treaties the 
+      comanche's cloaking is only activateable by select 3-star Generals. Keep 
+      in mind that Boss comanches take longer to re-stealth than previous models.<br>
+    </td>
+  </tr>
+</table>
+
+<p> <a href="bossarmies.htm"
+	onmouseover="changeImages('back', 'images/back-over.gif'); return true;"
+	onmouseout="changeImages('back', 'images/back.gif'); return true;"
+	onmousedown="changeImages('back', 'images/back-over.gif'); return true;"
+	onmouseup="changeImages('back', 'images/back-over.gif'); return true;"> <img name="back" src="images/back.gif" width="141" height="32" border="0" alt="" align="right"></a> 
+</p>
+</body>
+</html>

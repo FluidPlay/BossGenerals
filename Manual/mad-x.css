@@ -1,0 +1,17 @@
+.MaD-X {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; font-variant: normal; color: #DDDDDD; text-align: justify; list-style-position: outside; list-style-type: circle; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+
+BODY {
+	SCROLLBAR-FACE-COLOR: #E3A45D;
+	SCROLLBAR-HIGHLIGHT-COLOR: #F8BD6F;
+	SCROLLBAR-SHADOW-COLOR: #8C6639;
+	SCROLLBAR-3DLIGHT-COLOR: #FDEB89;
+	SCROLLBAR-ARROW-COLOR: #FDE988;
+	SCROLLBAR-TRACK-COLOR: #2B2B2B;
+	SCROLLBAR-DARKSHADOW-COLOR: #583D1F;
+	
+}
+
+.backdropx {
+background-image: url(images/bosssitetopbar-bg_01.jpg);
+background-repeat: no-repeat;
+	}

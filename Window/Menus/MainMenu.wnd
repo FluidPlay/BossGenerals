@@ -7,8 +7,8 @@ ENDLAYOUTBLOCK
 WINDOW
   WINDOWTYPE = USER;
   SCREENRECT = UPPERLEFT: 0 0,
-               BOTTOMRIGHT: 800 600,
-               CREATIONRESOLUTION: 800 600;
+               BOTTOMRIGHT: 3840 2160,
+               CREATIONRESOLUTION: 3840 2160;
   NAME = "MainMenu.wnd:MainMenuParent";
   STATUS = ENABLED+IMAGE;
   STYLE = USER;
@@ -53,8 +53,8 @@ WINDOW
   WINDOW
     WINDOWTYPE = USER;
     SCREENRECT = UPPERLEFT: 0 0,
-                 BOTTOMRIGHT: 800 600,
-                 CREATIONRESOLUTION: 800 600;
+                 BOTTOMRIGHT: 3840 2160,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MainMenuRuler";
     STATUS = ENABLED+IMAGE;
     STYLE = USER;
@@ -99,9 +99,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 532 108,
-                 BOTTOMRIGHT: 756 320,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2758 371,
+                 BOTTOMRIGHT: 3492 1066,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MapBorder4";
     STATUS = ENABLED;
     STYLE = USER;
@@ -145,9 +145,9 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 532 108,
-                   BOTTOMRIGHT: 756 320,
-                   CREATIONRESOLUTION: 800 600;
+      SCREENRECT = UPPERLEFT: 2758 371,
+                   BOTTOMRIGHT: 3492 1066,
+                   CREATIONRESOLUTION: 3840 2160;
       NAME = "MainMenu.wnd:EarthMap4";
       STATUS = ENABLED;
       STYLE = USER;
@@ -191,9 +191,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 276,
-                     BOTTOMRIGHT: 748 312,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 922,
+                     BOTTOMRIGHT: 3466 1040,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonDiffBack";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -239,9 +239,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 236,
-                     BOTTOMRIGHT: 748 272,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 791,
+                     BOTTOMRIGHT: 3466 909,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonHard";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -287,9 +287,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 196,
-                     BOTTOMRIGHT: 748 231,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 659,
+                     BOTTOMRIGHT: 3466 773,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonMedium";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -335,9 +335,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 156,
-                     BOTTOMRIGHT: 748 191,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 528,
+                     BOTTOMRIGHT: 3466 642,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonEasy";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -383,9 +383,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 756 152,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 397,
+                     BOTTOMRIGHT: 3492 515,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:StaticTextSelectDifficulty";
         STATUS = ENABLED+HIDDEN;
         STYLE = STATICTEXT+MOUSETRACK;
@@ -436,9 +436,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 532 108,
-                 BOTTOMRIGHT: 756 240,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2758 371,
+                 BOTTOMRIGHT: 3492 803,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MapBorder1";
     STATUS = ENABLED;
     STYLE = USER;
@@ -482,9 +482,9 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 532 108,
-                   BOTTOMRIGHT: 756 233,
-                   CREATIONRESOLUTION: 800 600;
+      SCREENRECT = UPPERLEFT: 2758 371,
+                   BOTTOMRIGHT: 3492 780,
+                   CREATIONRESOLUTION: 3840 2160;
       NAME = "MainMenu.wnd:EarthMap1";
       STATUS = ENABLED;
       STYLE = USER;
@@ -528,9 +528,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 196,
-                     BOTTOMRIGHT: 748 232,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 659,
+                     BOTTOMRIGHT: 3466 777,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonMultiBack";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -576,9 +576,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 156,
-                     BOTTOMRIGHT: 748 191,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 528,
+                     BOTTOMRIGHT: 3466 642,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonNetwork";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -624,9 +624,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 748 151,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 397,
+                     BOTTOMRIGHT: 3466 511,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonOnline";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -676,9 +676,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 532 108,
-                 BOTTOMRIGHT: 756 240,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2758 371,
+                 BOTTOMRIGHT: 3492 803,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MapBorder3";
     STATUS = ENABLED;
     STYLE = USER;
@@ -722,9 +722,9 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 532 108,
-                   BOTTOMRIGHT: 756 232,
-                   CREATIONRESOLUTION: 800 600;
+      SCREENRECT = UPPERLEFT: 2758 371,
+                   BOTTOMRIGHT: 3492 777,
+                   CREATIONRESOLUTION: 3840 2160;
       NAME = "MainMenu.wnd:EarthMap3";
       STATUS = ENABLED;
       STYLE = USER;
@@ -768,9 +768,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 196,
-                     BOTTOMRIGHT: 748 232,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 659,
+                     BOTTOMRIGHT: 3466 777,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonLoadReplayBack";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -816,9 +816,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 156,
-                     BOTTOMRIGHT: 748 191,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 528,
+                     BOTTOMRIGHT: 3466 642,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonReplay";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -864,9 +864,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 748 151,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 397,
+                     BOTTOMRIGHT: 3466 511,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonLoadGame";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -916,9 +916,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 532 108,
-                 BOTTOMRIGHT: 756 360,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2758 371,
+                 BOTTOMRIGHT: 3492 1197,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MapBorder";
     STATUS = ENABLED;
     STYLE = USER;
@@ -962,9 +962,9 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 532 108,
-                   BOTTOMRIGHT: 756 352,
-                   CREATIONRESOLUTION: 800 600;
+      SCREENRECT = UPPERLEFT: 2758 371,
+                   BOTTOMRIGHT: 3492 1171,
+                   CREATIONRESOLUTION: 3840 2160;
       NAME = "MainMenu.wnd:EarthMap";
       STATUS = ENABLED;
       STYLE = USER;
@@ -1008,9 +1008,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 316,
-                     BOTTOMRIGHT: 748 351,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 1053,
+                     BOTTOMRIGHT: 3466 1167,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonSingleBack";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1056,9 +1056,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 276,
-                     BOTTOMRIGHT: 748 312,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 922,
+                     BOTTOMRIGHT: 3466 1040,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonSkirmish";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1102,15 +1102,14 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
-;[Bt]
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 196,
-                     BOTTOMRIGHT: 748 231,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 659,
+                     BOTTOMRIGHT: 3466 773,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonChina";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -1155,11 +1154,11 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 156,
-                     BOTTOMRIGHT: 748 192,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 528,
+                     BOTTOMRIGHT: 3466 646,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonGLA";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -1204,11 +1203,11 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 748 152,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 397,
+                     BOTTOMRIGHT: 3466 515,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonUSA";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -1253,11 +1252,11 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 236,
-                     BOTTOMRIGHT: 748 272,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 791,
+                     BOTTOMRIGHT: 3466 909,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonChallenge";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -1306,9 +1305,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 0 4,
-                 BOTTOMRIGHT: 48 28,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 0 14,
+                 BOTTOMRIGHT: 172 100,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ShellMenuScheme";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -1353,9 +1352,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 532 108,
-                 BOTTOMRIGHT: 756 360,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2758 371,
+                 BOTTOMRIGHT: 3492 1197,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:MapBorder2";
     STATUS = ENABLED;
     STYLE = USER;
@@ -1399,9 +1398,9 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 532 108,
-                   BOTTOMRIGHT: 756 352,
-                   CREATIONRESOLUTION: 800 600;
+      SCREENRECT = UPPERLEFT: 2758 371,
+                   BOTTOMRIGHT: 3492 1171,
+                   CREATIONRESOLUTION: 3840 2160;
       NAME = "MainMenu.wnd:EarthMap2";
       STATUS = ENABLED;
       STYLE = USER;
@@ -1445,9 +1444,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 316,
-                     BOTTOMRIGHT: 748 352,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 1053,
+                     BOTTOMRIGHT: 3466 1171,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonExit";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1493,9 +1492,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 276,
-                     BOTTOMRIGHT: 748 312,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 922,
+                     BOTTOMRIGHT: 3466 1040,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonCredits";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1541,9 +1540,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 236,
-                     BOTTOMRIGHT: 748 272,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 791,
+                     BOTTOMRIGHT: 3466 909,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonOptions";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1589,9 +1588,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 196,
-                     BOTTOMRIGHT: 748 231,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 659,
+                     BOTTOMRIGHT: 3466 773,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonLoadReplay";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1637,9 +1636,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 156,
-                     BOTTOMRIGHT: 748 192,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 528,
+                     BOTTOMRIGHT: 3466 646,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonMultiplayer";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1685,9 +1684,9 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 748 152,
-                     CREATIONRESOLUTION: 800 600;
+        SCREENRECT = UPPERLEFT: 2784 397,
+                     BOTTOMRIGHT: 3466 515,
+                     CREATIONRESOLUTION: 3840 2160;
         NAME = "MainMenu.wnd:ButtonSinglePlayer";
         STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1729,55 +1728,6 @@ WINDOW
                          IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-  END
-  CHILD
-  WINDOW
-    WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 36 558,
-                 BOTTOMRIGHT: 229 579,
-                 CREATIONRESOLUTION: 800 600;
-    NAME = "MainMenu.wnd:Release";
-    STATUS = ENABLED;
-    STYLE = STATICTEXT;
-    SYSTEMCALLBACK = "[None]";
-    INPUTCALLBACK = "[None]";
-    TOOLTIPCALLBACK = "[None]";
-    DRAWCALLBACK = "[None]";
-    FONT = NAME: "Times New Roman", SIZE: 9, BOLD: 0;
-    HEADERTEMPLATE = "Arial10BoldTemplate";
-    TOOLTIPDELAY = -1;
-    TEXT = "GUI:ReleaseVer";
-    TEXTCOLOR = ENABLED:  255 240 100 180, ENABLEDBORDER:  0 0 0 255,
-                DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
-                HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
-        ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 0 0 0 0,
-                          IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 192 192 192 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 128 0 255, BORDERCOLOR: 128 255 128 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        STATICTEXTDATA = CENTERED: 0;
       END
       ENDALLCHILDREN
     END
@@ -1786,9 +1736,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 34 517,
-                 BOTTOMRIGHT: 47 530,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 229 1856,
+                 BOTTOMRIGHT: 278 1905,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:GreenDot";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -1833,9 +1783,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 53 503,
-                 BOTTOMRIGHT: 158 539,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 301 1803,
+                 BOTTOMRIGHT: 697 1939,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:Clock";
     STATUS = ENABLED+HIDDEN;
     STYLE = USER;
@@ -1880,9 +1830,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 104,
-                 BOTTOMRIGHT: 532 128,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 358,
+                 BOTTOMRIGHT: 2757 436,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonUSARecentSave";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -1928,9 +1878,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 88 108,
-                 BOTTOMRIGHT: 476 496,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 796 388,
+                 BOTTOMRIGHT: 2192 1784,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinGrowMarker";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -1975,9 +1925,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 496 423,
-                 BOTTOMRIGHT: 592 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2429 1501,
+                 BOTTOMRIGHT: 2791 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionTrainingSmall";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2022,9 +1972,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 472 399,
-                 BOTTOMRIGHT: 616 543,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2339 1410,
+                 BOTTOMRIGHT: 2883 1954,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionTrainingMedium";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2069,9 +2019,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 497 423,
-                 BOTTOMRIGHT: 593 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2433 1501,
+                 BOTTOMRIGHT: 2795 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionTraining";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2116,9 +2066,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 639 423,
-                 BOTTOMRIGHT: 735 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 3118 1501,
+                 BOTTOMRIGHT: 3480 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionSkirmishSmall";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2163,9 +2113,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 616 399,
-                 BOTTOMRIGHT: 760 543,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 3031 1410,
+                 BOTTOMRIGHT: 3575 1954,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionSkirmishMedium";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2210,9 +2160,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 640 423,
-                 BOTTOMRIGHT: 736 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 3122 1501,
+                 BOTTOMRIGHT: 3484 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionSkirmish";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2257,9 +2207,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 68 423,
-                 BOTTOMRIGHT: 164 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 358 1501,
+                 BOTTOMRIGHT: 720 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionUSSmall";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2304,9 +2254,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 43 399,
-                 BOTTOMRIGHT: 187 543,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 263 1410,
+                 BOTTOMRIGHT: 807 1954,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionUSMedium";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2351,9 +2301,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 67 423,
-                 BOTTOMRIGHT: 163 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 354 1501,
+                 BOTTOMRIGHT: 716 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionUS";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2398,9 +2348,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 213 423,
-                 BOTTOMRIGHT: 309 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 1042 1501,
+                 BOTTOMRIGHT: 1404 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionGLASmall";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2445,9 +2395,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 187 399,
-                 BOTTOMRIGHT: 331 543,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 944 1410,
+                 BOTTOMRIGHT: 1488 1954,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionGLAMedium";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2492,9 +2442,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 211 423,
-                 BOTTOMRIGHT: 307 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 1035 1501,
+                 BOTTOMRIGHT: 1397 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionGLA";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2539,9 +2489,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 351 423,
-                 BOTTOMRIGHT: 447 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 1711 1501,
+                 BOTTOMRIGHT: 2073 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionChinaSmall";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2586,9 +2536,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 328 399,
-                 BOTTOMRIGHT: 472 543,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 1625 1410,
+                 BOTTOMRIGHT: 2169 1954,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionChinaMedium";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2633,9 +2583,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 352 423,
-                 BOTTOMRIGHT: 448 519,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 1715 1501,
+                 BOTTOMRIGHT: 2077 1863,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:WinFactionChina";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = USER;
@@ -2680,9 +2630,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 132,
-                 BOTTOMRIGHT: 532 156,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 450,
+                 BOTTOMRIGHT: 2757 528,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonUSALoadGame";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2728,9 +2678,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 140,
-                 BOTTOMRIGHT: 532 164,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 476,
+                 BOTTOMRIGHT: 2757 554,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonGLARecentSave";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2776,9 +2726,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 168,
-                 BOTTOMRIGHT: 532 192,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 568,
+                 BOTTOMRIGHT: 2757 646,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonGLALoadGame";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2824,9 +2774,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 180,
-                 BOTTOMRIGHT: 532 204,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 607,
+                 BOTTOMRIGHT: 2757 685,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonChinaRecentSave";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2872,9 +2822,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 440 208,
-                 BOTTOMRIGHT: 532 232,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2456 699,
+                 BOTTOMRIGHT: 2757 777,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonChinaLoadGame";
     STATUS = ENABLED+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2920,9 +2870,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 48 361,
-                 BOTTOMRIGHT: 276 393,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 282 1267,
+                 BOTTOMRIGHT: 1143 1387,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonGetMapPack";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -2968,9 +2918,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = PUSHBUTTON;
-    SCREENRECT = UPPERLEFT: 622 32,
-                 BOTTOMRIGHT: 791 61,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 3053 122,
+                 BOTTOMRIGHT: 3607 217,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:ButtonGetUpdate";
     STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = PUSHBUTTON+MOUSETRACK;
@@ -3016,9 +2966,9 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 494 6,
-                 BOTTOMRIGHT: 800 100,
-                 CREATIONRESOLUTION: 800 600;
+    SCREENRECT = UPPERLEFT: 2666 69,
+                 BOTTOMRIGHT: 3607 377,
+                 CREATIONRESOLUTION: 3840 2160;
     NAME = "MainMenu.wnd:Logo";
     STATUS = ENABLED+IMAGE;
     STYLE = USER;
